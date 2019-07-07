@@ -1,0 +1,5 @@
+version: '3'
+services:
+     my-first-docker:         #指定服务名称
+         build: .             #指定DockerFile所在路径
+         ports: ["8088:8080"]   #端口映射，类似 docker run -p 操作
